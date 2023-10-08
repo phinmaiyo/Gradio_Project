@@ -1,0 +1,6 @@
+gradio
+numpy
+pandas
+scikit-learn
+joblib
+pickle
