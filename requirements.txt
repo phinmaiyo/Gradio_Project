@@ -1,6 +1,6 @@
 gradio
-numpy
-pandas
+pandas==2.1.1
+numpy==1.26.0
+scikit-learn==1.3.1
+joblib==1.3.2
 scikit-learn
-joblib
-pickle
