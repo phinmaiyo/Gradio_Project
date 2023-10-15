@@ -78,6 +78,6 @@ gr.Interface(inputs=[gender, SeniorCitizen, Partner, Dependents, tenure, PhoneSe
              fn=predict_customer_attrition,
              outputs= gr.Label("Awaiting Submission...."),
              title="Customer Attrition Prediction App",
-             description="This app was created by Santorini during our LP4 EDS", live=True).launch(inbrowser=True, show_error=True)
+             description="Experience the power of predictive analytics by using the Customer Attrition Prediction App. Input customer data, get predictions, and take proactive steps to improve customer satisfaction and retention.", live=True).launch(inbrowser=True, show_error=True, share=True)
 
 
